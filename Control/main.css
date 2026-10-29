@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+body {
+    background: gainsboro;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+body.dark{ 
+    background:black !important;
+    color: black !important;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+body.dark .bottom-box,
+body.dark .his-text,
+body.dark .his-text2,
+body.dark .his-text2,
+body.dark .his-text3,
+body.dark .his-text4,
+body.dark .his-text5,
+body.dark .his-text6,
+body.dark .my-text,
+body.dark .my-text2,
+body.dark .my-text3,
+body.dark .my-text4,
+body.dark .my-text5,
+body.dark .my-text6,
+body.dark .my-text7,
+body.dark .my-text8,
+body.dark .send-btn {
+    display: none;
+}
+
+.dark-message {
+    display: none;
+}
+
+body.dark .dark-message {
+    display: block !important;
+    color: white;
+    font-size: 24px;
+    margin-top: 400px;
+    text-align: center;
+   
+}
+
+
+.ask {
+    position: absolute;
+    top: 200px;
+    padding: 10px;
+}
+
+.No{
+    position: absolute;
+    top: 200px;
+    padding: 10px; 
+}
+
+.button-group {
+    position: absolute;
+    padding: 15px 10px 10px 10px;
+    top: 400px;
+    font-size: 25px;
+}
+.btn-yes {
+    background: green;
+    font-size: 25px;
+}
+
+.btn-no {
+    background: red;
+}
+
+
+
+.bottom-box {
+    background-color:gray;
+    position:fixed;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    height: 50px;
+    width: 1350px;
+    padding: 0px 8px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+.his-text{
+    background-color: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.my-text{
+    background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+}
+
+.send-btn{
+background-color:cadetblue;
+width: fit-content;
+font-size: 30px;
+position: fixed;
+bottom:30px;
+right:30px;
+}
+
+
+
+.his-text2{
+    background: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.his-text3{
+    background: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.my-text2{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.his-text4{
+    background: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.my-text3{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.my-text4{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.my-text5{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.his-text5{
+    background: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+
+.my-text6{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.my-text7{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.his-text6{
+    background: lightseagreen;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.my-text8{
+      background-color:green;
+    color: white;
+    width:fit-content;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
+
+.the-end{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 400px;
+}
